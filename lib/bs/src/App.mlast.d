@@ -1,0 +1,1 @@
+src/App-MyReasonReactNativeApp.cmj : src/Home-MyReasonReactNativeApp.cmj src/NavigationConfig-MyReasonReactNativeApp.cmj

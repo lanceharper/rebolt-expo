@@ -1,0 +1,21 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "bs-platform": "^3.1.5",
+    "bs-react-native": "^0.8.0",
+    "expo": "^28.0.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.0.5",
+    "reason-react": "^0.4.2",
+    "rebolt": "^0.1.0",
+    "reroute-native": "^0.0.5"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build": "bsb -make-world -clean-world",
+    "watch": "bsb -make-world -clean-world -w"
+  }
+}

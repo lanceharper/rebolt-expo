@@ -1,0 +1,19 @@
+{
+  "name": "my-reason-react-native-app",
+  "reason": {
+    "react-jsx": 2
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "bs-dependencies": ["rebolt", "reason-react", "reroute-native"],
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ],
+  "refmt": 3,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "namespace": true
+}
